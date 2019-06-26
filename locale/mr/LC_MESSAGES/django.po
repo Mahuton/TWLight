@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: wikipedialibrary@wikimedia.org\n"
-"POT-Creation-Date: 2019-05-30 18:02+0000\n"
+"POT-Creation-Date: 2019-06-26 12:11+0000\n"
 "PO-Revision-Date: 2019-02-14 08:31:32+0000\n"
 "Language: mr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -296,7 +296,7 @@ msgstr "ह्या अर्जावर निर्णय होऊन इ�
 
 #. Translators: This labels the section of an application showing the current status of the application ('Pending', 'Approved', etc.)
 #: TWLight/applications/templates/applications/application_evaluation.html:67
-#: TWLight/graphs/views.py:265
+#: TWLight/graphs/views.py:266
 msgid "Status"
 msgstr "स्थिती"
 
@@ -1100,67 +1100,67 @@ msgid "You must be a Wikipedia editor to do that."
 msgstr ""
 
 #. Translators: This is the heading of a data file which lists the number of days it took to decide on applications that have already been accepted/rejected.
-#: TWLight/graphs/views.py:197
+#: TWLight/graphs/views.py:196
 msgid "Days until decision"
 msgstr ""
 
 #. Translators: This is the heading of a data file which lists the number of days it took to decide on applications that have already been accepted/rejected. This heading denotes the number of applicants for a particular number of days.
 #. Translators: This is the heading of a data file which lists the number of applications to a partner.
-#: TWLight/graphs/views.py:199 TWLight/graphs/views.py:266
-#: TWLight/graphs/views.py:294
+#: TWLight/graphs/views.py:198 TWLight/graphs/views.py:267
+#: TWLight/graphs/views.py:295
 msgid "Number of applications"
 msgstr ""
 
 #. Translators: This is the heading of a data file, for a column containing date data.
-#: TWLight/graphs/views.py:213 TWLight/graphs/views.py:292
-#: TWLight/graphs/views.py:316
+#: TWLight/graphs/views.py:212 TWLight/graphs/views.py:293
+#: TWLight/graphs/views.py:317
 msgid "Date"
 msgstr ""
 
 #. Translators: This is the heading of a data file. 'Number of partners' refers to the total number of publishers/databases open to applications on the website.
-#: TWLight/graphs/views.py:215
+#: TWLight/graphs/views.py:214
 msgid "Number of approved applications"
 msgstr ""
 
 #. Translators: This is the heading of a data file, denoting the column which contains the dates (months) corresponding to data collection
-#: TWLight/graphs/views.py:233
+#: TWLight/graphs/views.py:232
 msgid "Month"
 msgstr ""
 
 #. Translators: This is the heading of a data file which lists the median (not mean) number of days until a decision (approve or reject) was made on applications.
-#: TWLight/graphs/views.py:235
+#: TWLight/graphs/views.py:234
 msgid "Median days until decision"
 msgstr ""
 
 #. Translators: This is the heading of a data file which lists the number of unique (not counting repeat applications) users who have applied to a partner.
-#: TWLight/graphs/views.py:318
+#: TWLight/graphs/views.py:319
 msgid "Number of unique users who applied"
 msgstr ""
 
 #. Translators: This is a warning which is shown when a user who is not a staff member attempts to download the pageview data file.
-#: TWLight/graphs/views.py:333 TWLight/graphs/views.py:360
+#: TWLight/graphs/views.py:334 TWLight/graphs/views.py:361
 msgid "You must be staff to do that."
 msgstr ""
 
 #. Translators: This is the heading for a downloadable data file showing the number of visitors to each page on the website. Page URL is the column which lists the URL of each page
-#: TWLight/graphs/views.py:343 TWLight/graphs/views.py:377
+#: TWLight/graphs/views.py:344 TWLight/graphs/views.py:378
 #: TWLight/templates/dashboard.html:87
 msgid "Page URL"
 msgstr ""
 
 #. Translators: This is the heading for a downloadable data file showing the number of visitors to each page on the website.
-#: TWLight/graphs/views.py:344 TWLight/graphs/views.py:379
+#: TWLight/graphs/views.py:345 TWLight/graphs/views.py:380
 msgid "Number of (non-unique) visitors"
 msgstr ""
 
 #. Translators: Title for a list of languages if there is only one.
 #. Translators: Users' detected or selected language.
-#: TWLight/graphs/views.py:395 TWLight/resources/models.py:82
+#: TWLight/graphs/views.py:396 TWLight/resources/models.py:82
 #: TWLight/users/models.py:75 TWLight/users/templates/users/preferences.html:8
 msgid "Language"
 msgstr ""
 
-#: TWLight/graphs/views.py:396
+#: TWLight/graphs/views.py:397
 msgid "Number of users"
 msgstr ""
 
@@ -2723,38 +2723,38 @@ msgstr ""
 msgid "Wiki contributions, as entered by user"
 msgstr ""
 
-#: TWLight/users/models.py:366
+#: TWLight/users/models.py:369
 #, python-brace-format
 msgid "{wp_username}"
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field where staff can specify the username of the authorized editor.
-#: TWLight/users/models.py:395
+#: TWLight/users/models.py:398
 msgid "The authorized user."
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field where staff can specify the user who authorized the editor.
-#: TWLight/users/models.py:403
+#: TWLight/users/models.py:406
 msgid "The authorizing user."
 msgstr ""
 
 #. Translators: This field records the date the authorization expires.
-#: TWLight/users/models.py:409
+#: TWLight/users/models.py:412
 msgid "The date this authorization expires."
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field where staff can specify the partner for which the editor is authorized.
-#: TWLight/users/models.py:416
+#: TWLight/users/models.py:419
 msgid "The partner for which the editor is authorized."
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field where staff can specify the partner for which the editor is authoried.
-#: TWLight/users/models.py:423
+#: TWLight/users/models.py:426
 msgid "The stream for which the editor is authorized."
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field which tracks whether a reminder has been sent about this authorization yet.
-#: TWLight/users/models.py:427
+#: TWLight/users/models.py:430
 msgid "Have we sent a reminder email about this authorization?"
 msgstr ""
 
